@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: delivery-eureka-server # Nome exclusivo para um serviço do servidor Eureka.
+  cloud:
+    config:
+      uri: http://localhost:9090 # que indica o host do Config Server e para que na hora da inicialização a aplicação peça a ele suas propriedades.

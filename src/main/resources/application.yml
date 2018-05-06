@@ -1,0 +1,3 @@
+# Como optamos pelo padrão de arquivos .yml podemos deletar o arquivo application.properties.
+server:
+  port: 9091 # porta em que a aplicação irá subir
